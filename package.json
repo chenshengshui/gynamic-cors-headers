@@ -1,0 +1,26 @@
+{
+  "name": "gynamic-cors-headers",
+  "version": "1.0.1",
+  "description": "设置跨域头中间件",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d lib/ src/  --presets babel-preset-es2015",
+    "prepublish": "npm run build"
+  },
+  "author": "chenshengshui",
+  "keywords": ["nodejs", "middleware", "cors"],
+  "license": "ISC",
+  "bugs": {
+    "email": "2441127758@qq.com",
+    "url": "https://github.com/chenshengshui/gynamic-cors-headers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chenshengshui/gynamic-cors-headers.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
